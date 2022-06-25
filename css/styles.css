@@ -35,7 +35,7 @@ body {
 }
 
 .section {
-  padding: 94px 0 94px;
+  padding: 94px 0;
 }
 
 /* общие стили заголовков */
@@ -153,6 +153,9 @@ img {
 .hero {
   background-color: var(--secondary-color);
   text-align: center;
+}
+
+.hero .section {
   padding: 200px 0;
 }
 
@@ -187,6 +190,10 @@ img {
   display: flex;
 }
 
+.benefits-list-item {
+  width: 270px;
+}
+
 .benefits-list-item + .benefits-list-item {
   margin-left: 30px;
 }
@@ -200,6 +207,10 @@ img {
   text-transform: uppercase;
   line-height: 1.14;
   text-align: left;
+}
+
+.work.section {
+  padding-top: 0;
 }
 
 .work-list {
@@ -232,19 +243,22 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
+.team-tumb {
+  padding: 30px 0;
+}
+
 .team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  margin-top: 30px;
 }
 
 .team-profname {
   font-size: 16px;
   line-height: 1.9;
   text-align: center;
-  margin: 10px 0 30px;
+  margin: 10px 0 0 0;
 }
 
 /* портфолио */
@@ -298,22 +312,23 @@ img {
   margin-bottom: 0;
 }
 
-.portfolio-inner {
+.portfolio-tumb {
   border: 1px solid #ececec;
+  padding: 20px 24px;
 }
 
 .portfolio-title {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin: 20px 0 4px 24px;
+  margin: 0 0 4px 0;
 }
 
 .portfolio-description {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.87;
-  margin: 0 0 20px 24px;
+  margin: 0;
 }
 
 /* футер */

@@ -155,7 +155,7 @@ img {
   text-align: center;
 }
 
-.hero .section {
+.hero {
   padding: 200px 0;
 }
 
@@ -209,7 +209,7 @@ img {
   text-align: left;
 }
 
-.work.section {
+.work {
   padding-top: 0;
 }
 
@@ -243,7 +243,7 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.team-tumb {
+.team-thumb {
   padding: 30px 0;
 }
 
@@ -312,7 +312,7 @@ img {
   margin-bottom: 0;
 }
 
-.portfolio-tumb {
+.portfolio-thumb {
   border: 1px solid #ececec;
   padding: 20px 24px;
 }
